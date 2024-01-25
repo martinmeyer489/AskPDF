@@ -14,8 +14,8 @@ export default async function Header() {
             href="/"
             className="hover:text-slate-600 cursor-pointer flex items-center"
           >
-            <Logo />
-            <span className="text-2xl mb-2 font-medium">PDFtoChat</span>
+            {/* <Logo /> */}
+            <span className="text-2xl mb-2 font-medium">AskPDF</span>
           </Link>
           <div className="flex items-center gap-5">
             {isLoggedIn ? (
