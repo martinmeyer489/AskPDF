@@ -41,7 +41,7 @@ const Footer = () => {
           </a>
           .
         </span>
-        <div className="flex items-center gap-[22px] sm:gap-[39px]">
+        {/* <div className="flex items-center gap-[22px] sm:gap-[39px]">
           <div className="flex space-x-4 pb-4 sm:pb-0">
             <Link
               href="https://twitter.com/nutlope"
@@ -68,7 +68,7 @@ const Footer = () => {
               </svg>
             </Link>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
